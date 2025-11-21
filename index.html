@@ -1,11 +1,135 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Página do Guganevez</title>
-  </head>
-  <body>
-    <h1>Olá, sou o Guganevez 👋</h1>
-    <p>Bem-vindo à minha página no GitHub Pages!</p>
-  </body>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gusttavo Fróes Lopes - Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+    }
+    header {
+      background: #161b22;
+      padding: 20px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #58a6ff;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .avatar {
+      border-radius: 50%;
+      width: 140px;
+      height: 140px;
+      border: 4px solid #30363d;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #161b22;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    h1, h2 {
+      text-align: center;
+      color: #58a6ff;
+    }
+    .center {
+      text-align: center;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background: #161b22;
+      text-align: center;
+      color: #8b949e;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://github.com/guganevez.png" alt="Avatar" class="avatar" />
+  <h1>Gusttavo Fróes Lopes</h1>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#skills">Skills</a>
+    <a href="#experiencia">Experiência</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<section id="sobre">
+  <h2>Sobre Mim</h2>
+  <p>
+    Profissional com mais de 15 anos em consultoria de processos, implantação de ERP Sankhya e desenvolvimento.
+    Experiência sólida em análise, desenvolvimento, troubleshooting e arquiteto de soluções corporativas.
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Tecnologias & Ferramentas</h2>
+  <div class="center">
+    <img src="https://skillicons.dev/icons?i=java,spring,csharp,c,cpp,delphi,aws,azure,gcp,oracle,sqlserver,mysql,postgres,git,github,linux,docker,kubernetes&perline=7"/>
+  </div>
+</section>
+
+<section id="experiencia">
+  <h2>Experiência</h2>
+  <ul>
+    <li><b>Consultor:</b> 2008 – Atual (ERP Sankhya, desenvolvimento, automações, integrações).</li>
+    <li><b>Data Traffic:</b> C# / SQL Server / Crystal Reports (2005 – 2008).</li>
+    <li><b>Anhanguera Casa e Construção:</b> Delphi, C#, Oracle (2004 – 2005).</li>
+    <li><b>C&S Computadores:</b> Suporte Oracle (2002 – 2004).</li>
+  </ul>
+</section>
+
+<section id="projetos">
+  <h2>Projetos (Fictícios para Demonstração)</h2>
+  <ul>
+    <li>🔹 <b>FinanceHub:</b> Plataforma completa de gestão financeira com IA.</li>
+    <li>🔹 <b>Sankhya Analytics:</b> Dashboard avançado com BI e Data Lake.</li>
+    <li>🔹 <b>ERP Mobile Sync:</b> Integração mobile para processos offline.</li>
+  </ul>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p class="center">
+    <a href="mailto:gusttavo_lopes@hotmail.com">gusttavo_lopes@hotmail.com</a> ·
+    <a href="mailto:guganevez@gmail.com">guganevez@gmail.com</a> ·
+    <a href="mailto:gusttavo.lopes@hagiousts.com">gusttavo.lopes@hagiousts.com</a>
+  </p>
+  <div class="center">
+    <a href="https://linkedin.com/in/gusttavolopes" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-Perfil-0077B5?style=for-the-badge&logo=linkedin" />
+    </a>
+  </div>
+</section>
+
+<footer>
+  © 2024 - Portfólio de Gusttavo F. Lopes — GitHub Pages
+</footer>
+
+</body>
 </html>
